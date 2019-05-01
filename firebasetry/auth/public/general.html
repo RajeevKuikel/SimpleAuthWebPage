@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    h1
+    {
+        padding-left: 3em;
+        padding-right: 5em;
+    }
+html, body 
+  {
+  height: 100%;
+  width: 100%;
+  padding-left: 10em;
+  padding-right: 10em; 
+  }
+
+  .button1 
+  {
+    box-align: center;
+    background-color: #02030D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .button1:hover
+  {
+      color:white;
+      background-color:#336699;
+  }
+
+  .button2 
+  {
+    box-align: center;
+    background-color: #02030D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button2:hover
+  {
+      color:white;
+      background-color:#336699;
+  }
+
+  input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-style:solid;
+}
+</style>
+<title>SmarTrash General Page</title>
+</head>
+<body>
+
+<img src="smartTrash.jpg" style="padding-left:5em;padding-right:5em">
+<h1>Report Form for General Public</h1>
+<br>
+<button class="button1" onclick="window.location='index.html';">&#8592 Go to Home</button>
+<p style="font-style:italic;">Any person can report an over-flowing Dumpster through this page. The Report will be sent to the Management.</p>
+<br>
+<form>
+    <div class="container">
+        <label for="uname"><b>Street Address where the dumpster is located*</b></label><br>
+        <input type="text" placeholder="Enter Street Address" name="street" required>
+        <br>
+        <br>
+  <label for="uname"><b>Apartment name or complex name (optional)</b></label><br>
+  <input type="text" placeholder="Optional" name="apartment" required>
+  </div>
+  <button class= "button2">Submit</button>
+</form>
+<p>* = required</p>
+
+</body>
+</html>
